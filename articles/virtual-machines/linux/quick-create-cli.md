@@ -93,10 +93,10 @@ Use the following bash script to update package sources and install the latest N
 #!/bin/bash
 
 # update package source
-apt-get -y update
+sudo apt-get -y update
 
 # install NGINX
-apt-get -y install nginx
+sudo apt-get -y install nginx
 ```
 
 ## View the NGIX welcome page
